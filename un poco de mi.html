@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo que quiero construir</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(197, 158, 197);">Mis anhelos...pasado, presente y fruturo</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pautas.html">Pautas</a></li>
+                    <li class="active"><a href="un poco de mi.html">Un poco de mi</a></li> 
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+    <h2 style="margin: 15px;">Un poco de mi</h2><hr>
+    <section class="centrado">
+        <div class="gallery"><a href="/assets/img/IMG-20230129-WA0007.jpeg" target="blank"><img src="/assets/img/IMG-20230129-WA0007.jpeg" alt="Trabajo en fabrica AJEC" width="600"></a>
+            <div class="description">Pintamos una maquina rebobinadora en una fabrica de cintas autoadhesivas.</div></div>
+        <div class="gallery"><a href="/assets/img/IMG_20220416_091451396.jpg" target="_blank"><img src="/assets/img/IMG_20220416_091451396.jpg" alt="Acampando en cordóba" width="600"></a>
+            <div class="description">Acampamos en "La Calera", Cordóba.</div></div>
+        <div class="gallery"><a href="/assets/img/IMG_20230212_184429174.jpg" target="_blank"><img src="/assets/img/IMG_20230212_184429174.jpg" alt="Horizonte desde la vuelta al mundo, Parque de la Costa" width="600"></a>
+            <div class="description"> Atardecer en nuestro cumpleaños en la vuelta al mundo, Parque de la costa.</div></div>
+        <div class="gallery"><a href="/assets/img/IMG_20230413_211643913.jpg" target="_blank"><img src="/assets/img/IMG_20230413_211643913.jpg" alt="Desde el Monumental" width="600"></a>
+            <div class="description">Desde el Monumental con mi hermano gemelo.</div></div>
+        <div class="gallery"><a href="/assets/img/IMG_20220412_115916691.jpg" target="_blank"><img src="/assets/img/IMG_20220412_115916691.jpg" alt="Nuestro compañero al Mate, mi compañera Mi Amor" width="600"></a>
+            <div class="description">Camino a Cordoba, junto a mi pareja y con nuestro compañero "El mate".</div></div>
+        <div class="gallery"><a href="/assets/img/IMG_20230105_164636633.jpg" target="_blank"><img src="/assets/img/IMG_20230105_164636633.jpg" alt="Un trabajo de muchos...un aire mas" width="600"></a>
+            <div class="description">Un trabajo mas como profesional en el ambito de la refrigeración.</div></div>
+    </section>
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
